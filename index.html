@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Work 2</title>
+    <link rel="stylesheet" href="stylesheet/normalize.min.css">
+    <link rel="stylesheet" href="stylesheet/style.min.css">
+</head> 
+<body>
+    <div class="wraper">
+        <header class="header">
+            <div class="user-card user-card__header">
+                <img class="user-card__img user-card_img" src="img/logo.png" alt="Tensor logo">
+                <h1 class="user-card__title">Tensor school</h1>
+                <p class="user-card__subtitle user-card__subtitle__line"> Это страница школы Тензор в городе Уфа. Тут вы можете познакомиться с нашими учениками и посмотреть темы занятий.</p>
+            </div>
+        </header>
+
+        <div class="users-content users-content_grid">
+
+            <div class="user-card user" data-name="Маша Иванова" data-bday="3 марта, 23 года" data-phone="+7 995 565 21 32" data-online="сегодня в 22:15" data-photo="img/ava1.png">
+                <img class="user-card__img user-card__img_round" src="img/ava1.png" alt="user's photo">
+                <h2 class="user-card__title">Маша Иванова</h2>
+                <p class="user-card__subtitle user-card__subtitle_gray">УГАТУ 2 курс</p>
+            </div>
+
+            <div class="user-card user" data-name="Миша Петров" data-bday="1 мая, 19 лет" data-phone="+7 995 554 12 20" data-online="сегодня в 12:35" data-photo="img/ava2.png">
+                <img class="user-card__img" src="img/ava2.png" alt="user's photo">
+                <h2 class="user-card__title">Миша Петров</h2>
+                <p class="user-card__subtitle user-card__subtitle_gray">СурГУ 3 курс</p>
+            </div>
+
+            <div class="user-card user" data-name="Марат Сидоров" data-bday="13 июня, 33 года" data-phone="+7 789 453 45 77" data-online="сегодня в 11:11" data-photo="img/ava3.png">
+                <img class="user-card__img" src="img/ava3.png" alt="user's photo">
+                <h2 class="user-card__title">Марат Сидоров</h2>
+                <p class="user-card__subtitle user-card__subtitle_gray">БГУ 4 курс</p>
+            </div>
+
+            <div class="user-card user" data-name="Наташа Фамилия" data-bday="7 апреля, 18 лет" data-phone="+7 999 999 99 99" data-online="сегодня в 01:45" data-photo="img/ava1.png">
+                <img class="user-card__img" src="img/ava1.png" alt="user's photo">
+                <h2 class="user-card__title">Наташа Фамилия</h2>
+                <p class="user-card__subtitle user-card__subtitle_gray">УГАТУ 2 курс</p>
+            </div>
+
+            <div class="user-card user" data-name="Саша Иванов" data-bday="1 сентября, 19 лет" data-phone="+7 888 999 77 88" data-online="сегодня в 03:45" data-photo="img/ava2.png">
+                <img class="user-card__img" src="img/ava2.png" alt="user's photo">
+                <h2 class="user-card__title">Саша Иванов</h2>
+                <p class="user-card__subtitle user-card__subtitle_gray">СурГУ 3 курс</p>
+            </div>
+
+               <div class="user-card user" data-name="Иван Сидоров" data-bday="17 февраля, 23 года" data-phone="+7 111 111 11 22" data-online="сегодня в 13:28" data-photo="img/ava3.png">
+                <img class="user-card__img" src="img/ava3.png" alt="user's photo">
+                <h2 class="user-card__title">Иван Сидоров</h2>
+                <p class="user-card__subtitle user-card__subtitle_gray">БГУ 4 курс</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="modal modal-wraper">
+        <div class="card-info card-info_grid">
+            <p class="card-info__online card_info_color_gray">Был сегодня в 16:53</p>
+            <div class="card-info__content_grid">
+                <h2 class="card-info__title">Марат Сидоров</h2>
+                <p class="card-info__bday card_info_color_gray">Дата рождения</p>
+                <p class="card-info__bday card-info__bday_value">1 марта, 25 лет</p>
+                <p class="card-info__phone card_info_color_gray">Телефон</p>
+                <p class="card-info__phone card-info__phone_value">+7 954 563 12 36</p>
+            </div>
+            <img class="card-info__img" src="img/ava3.png" alt="user's photo">
+            <a class="card-info__close"></a>
+        </div>
+    </div>
+    <script src="js/app.min.js"></script>
+</body>
+</html>
